@@ -26,7 +26,7 @@ module GraphQL
         {
           "message" => message,
           "locations" => locations,
-          "fields" => path,
+          "path" => path,
         }
       end
 

@@ -100,7 +100,7 @@ describe GraphQL::StaticValidation::Validator do
             {
               "message"=>"Fragment cheeseFields contains an infinite loop",
               "locations"=>[{"line"=>10, "column"=>9}],
-              "fields"=>["fragment cheeseFields"]
+              "path"=>["fragment cheeseFields"]
             }
           ]
           assert_equal(expected, errors)
